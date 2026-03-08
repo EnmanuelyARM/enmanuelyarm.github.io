@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+    /* Registramos tu paleta "The Monolith" para v4 */
+    --color-monolith-bg: #ffffff;
+    --color-monolith-txt: #111827;
+    --color-monolith-primary: #374151;
+    --color-monolith-secondary: #e5e7eb;
+    --color-monolith-accent: #d97706;
+}

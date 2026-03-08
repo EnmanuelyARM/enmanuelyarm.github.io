@@ -5,7 +5,15 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'monolith-txt': '#111827',
+                'monolith-bg': '#ffffff',
+                'monolith-primary': '#374151',
+                'monolith-secondary': '#e5e7eb',
+                'monolith-accent': '#d97706',
+            },
+        },
     },
     plugins: [],
 }
