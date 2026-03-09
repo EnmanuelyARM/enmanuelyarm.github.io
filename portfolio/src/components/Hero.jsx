@@ -7,15 +7,15 @@ export default function Hero() {
                 ¡Hola! Soy <span className="text-monolith-accent bg-linear-120 from-monolith-primary to-monolith-accent bg-clip-text text-transparent">Enmanueli Rondon</span>
             </h1>
             <p className="text-monolith-txt text-lg font-bold mt-2 tracking-tighter uppercase">
-                Ingeniero de Software | Desarrollador Web
+                Software Engineer | WEB Developer
             </p>
 
             <div className="mt-8 flex gap-4 justify-center">
                 <button className="px-6 py-2 border border-monolith-accent text-monolith-accent hover:bg-monolith-accent hover:text-monolith-txt transition-all rounded shadow-[0_0_15px_rgba(0,209,255,0.2)]">
-                    Ver Proyectos
+                    View Projects
                 </button>
                 <button className="px-6 py-2 bg-monolith-accent text-monolith-txt hover:bg-monolith-secondary hover:text-monolith-primary transition-all rounded">
-                    Sobre mí
+                    Know Me
                 </button>
             </div>
         </section>
