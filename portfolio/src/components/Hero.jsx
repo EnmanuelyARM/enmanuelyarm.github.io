@@ -2,14 +2,11 @@
 
 export default function Hero() {
     return (
-        <section className="text-center align-items-left">
-            <h1 className="text-5xl md:text-6xl m-0 tracking-tighter uppercase font-bold text-monolith-primary">
-                Hola
+        <section className="text-center">
+            <h1 className="text-5xl md:text-6xl m-0 tracking-tighter uppercase font-bold text-monolith-primary flex flex-col">
+                ¡Hola! Soy <span className="text-monolith-accent bg-linear-120 from-monolith-primary to-monolith-accent bg-clip-text text-transparent">Enmanueli Rondon</span>
             </h1>
-            <h1 className="text-5xl md:text-6xl m-0 tracking-tighter uppercase font-bold text-monolith-primary">
-                Soy <span className="text-monolith-accent">Enmanueli Rondon</span>
-            </h1>
-            <p className="text-monolith-txt text-lg font-bold mt-2 tracking-widest uppercase">
+            <p className="text-monolith-txt text-lg font-bold mt-2 tracking-tighter uppercase">
                 Ingeniero de Software | Desarrollador Web
             </p>
 
